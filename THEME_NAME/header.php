@@ -10,6 +10,8 @@
 
   <link rel="shortcut icon" href="<?php echo IMAGES ?>/favicon.ico">
 
+  <?php wp_head(); ?>
+
 </head>
 <body>
 
@@ -18,6 +20,16 @@
     <div class="container">
 
       HEADER
+
+      <div class="logo">
+
+        <a href="<?php echo home_url(); ?>">
+
+          <img src="<?php echo IMAGES ?>/logo.png" alt="<?php bloginfo('name'); ?> | <?php bloginfo('description'); ?>">
+
+        </a>
+
+      </div>
 
     </div>
 
