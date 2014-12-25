@@ -2,7 +2,12 @@
 
   <header>
 
-    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <?php if ( is_single() ): ?>
+      <h1><?php the_title(); ?></h1>
+    <?php else: ?>
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <?php endif; ?>
+
     <p class="post-date"><?php the_time( get_option( 'date_format' ) ); ?>, <?php _e( 'by', 'THEME_NAME' ); ?> <?php the_author_posts_link(); ?></p>
 
   </header>
