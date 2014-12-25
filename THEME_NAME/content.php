@@ -46,6 +46,12 @@
 
     </ul>
 
+    <?php if ( has_tag() ): ?>
+
+      <ul class="post-tags"><?php the_tags( '<li>', '</li><li>', '</li>' ); ?></ul>
+
+    <?php endif; ?>
+
   </footer>
 
 </article>
