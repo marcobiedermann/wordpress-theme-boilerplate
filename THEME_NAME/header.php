@@ -13,7 +13,7 @@
   <?php wp_head(); ?>
 
 </head>
-<body>
+<body <?php body_class(); ?>>
 
   <header class="header">
 
@@ -31,9 +31,9 @@
 
       </div>
 
-      <?php wp_nav_menu(array(
+      <?php wp_nav_menu( array(
         'theme_location' => 'nav-main'
-      )); ?>
+      ) ); ?>
 
     </div>
 
