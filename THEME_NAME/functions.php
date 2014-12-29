@@ -1,8 +1,12 @@
 <?php
 
+  // Constants
+
   define( 'THEMEROOT', get_stylesheet_directory_uri() );
   define( 'IMAGES', THEMEROOT . '/images' );
   define( 'SCRIPTS', THEMEROOT . '/js' );
+
+  // Register Menus
 
   function register_menus() {
     register_nav_menus( array(
@@ -11,6 +15,8 @@
   }
 
   add_action( 'init', 'register_menus' );
+
+  // Register sidebar
 
   if ( function_exists( 'register_sidebar') ) {
 
@@ -25,6 +31,8 @@
     );
 
   }
+
+  // Post format and featured Image
 
   if ( function_exists( 'add_theme_support' )) {
     add_theme_support( 'post-formats', array( 'link', 'quote', 'gallery' ) );
