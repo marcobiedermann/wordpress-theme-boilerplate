@@ -6,8 +6,6 @@
   <title><?php bloginfo( 'name' ); ?> | <?php is_front_page() ? bloginfo( 'description' ) : wp_title(''); ?></title>
   <meta name="description" content="<?php bloginfo( 'description' ); ?>">
 
-  <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
-
   <link rel="shortcut icon" href="<?php echo IMAGES ?>/favicon.ico">
 
   <?php wp_head(); ?>
