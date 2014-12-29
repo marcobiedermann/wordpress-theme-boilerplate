@@ -1,2 +1,3 @@
+(function($) {
 
-//# sourceMappingURL=main.js.map
+})(jQuery);

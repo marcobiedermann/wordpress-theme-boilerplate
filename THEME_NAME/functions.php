@@ -39,4 +39,12 @@
     add_theme_support( 'post-thumbnails', array( 'post' ) );
   }
 
+  // Load JS
+
+  add_action( 'wp_enqueue_scripts', 'load_custom_scripts' );
+
+  function load_custom_scripts() {
+    wp_enqueue_script( 'main_script', THEMEROOT . '/js/main.js', array('jquery'), true );
+  }
+
 ?>
