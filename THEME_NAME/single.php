@@ -22,6 +22,15 @@
 
         </div>
 
+        <ul class="pagination">
+          <?php if ( get_next_post_link() ) : ?>
+            <li><?php next_post_link( '%link', __( 'Previous post', 'THEME_NAME' ) ); ?></li>
+          <?php endif; ?>
+          <?php if ( get_previous_post_link() ) : ?>
+            <li><?php previous_post_link( '%link', __( 'Next post', 'THEME_NAME' ) ); ?></li>
+          <?php endif; ?>
+        </ul>
+
       </main>
 
       <aside class="sidebar sidebar-right col-4">

@@ -16,7 +16,7 @@
 
           <?php endif; ?>
 
-          <ul>
+          <ul class="pagination">
             <?php if ( get_next_posts_link() ) : ?>
               <li><?php next_posts_link( __('Older Posts', 'THEME_NAME') ); ?></li>
             <?php endif; ?>
