@@ -44,7 +44,8 @@
   add_action( 'wp_enqueue_scripts', 'load_custom_scripts' );
 
   function load_custom_scripts() {
-    wp_enqueue_script( 'main_script', THEMEROOT . '/js/main.js', array('jquery'), true );
+    wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.0.0', 'all' );
+    wp_enqueue_script( 'main_script', THEMEROOT . '/js/main.js', array('jquery'), '1.0.0', true );
   }
 
 ?>
