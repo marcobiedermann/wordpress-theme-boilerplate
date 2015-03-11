@@ -1,0 +1,56 @@
+// Fonts
+
+$font-family: 'Lato';
+$font-family-fallback: sans-serif;
+$font-size: 16px;
+$font-weight: 400;
+
+$line-height: 1.5em;
+
+$font-family-headings: 'Lato';
+$font-size-h1: 32px;
+$font-size-h2: 24px;
+$font-size-h3: 20px;
+$font-size-h4: 16px;
+$font-size-h5: 14px;
+$font-size-h6: 12px;
+$font-weight-headings: 700;
+
+$font-size-headings: (
+	$font-size-h1,
+	$font-size-h2,
+	$font-size-h3,
+	$font-size-h4,
+	$font-size-h5,
+	$font-size-h6
+);
+
+$font-family-code: 'Courier New';
+$font-family-code-fallback: monospace;
+
+// Spacing
+
+$margin-element-bottom: 3em;
+
+// Adjustments
+
+$amount: 10%;
+
+$rtl: false;
+
+// Grid
+
+$grid-columns: 12;
+$grid-gutter: 2%;
+
+// Media Queries
+
+$media-tiny: 480px;
+$media-small: 640px;
+$media-medium: 960px;
+$media-large: 1248px;
+
+// Paths
+
+$path-fonts: '../fonts';
+$path-img: '../img';
