@@ -1,0 +1,55 @@
+.post {
+
+  header {
+
+  }
+
+  footer {
+
+  }
+
+  .title {
+
+  }
+
+  .info {
+
+  }
+
+}
+
+.wp-caption {
+  max-width: 100%;
+}
+
+.post-edit-link {
+
+}
+
+.post-categories {
+  @include clearfix();
+  @include list-unstyled();
+  font-size: .875em;
+  line-height: 1.5em;
+  margin: -.25em -.5em;
+
+  li {
+    float: left;
+    margin: .25em .5em;
+  }
+
+}
+
+.post-tags {
+  @include clearfix();
+  @include list-unstyled();
+  font-size: .875em;
+  line-height: 1.5em;
+  margin: -.25em -.5em;
+
+  li {
+    float: left;
+    margin: .25em .5em;
+  }
+
+}

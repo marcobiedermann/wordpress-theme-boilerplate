@@ -1,0 +1,33 @@
+.menu {
+
+  .page_item {
+  }
+
+  .page_item_has_children {
+    position: relative;
+
+    &:hover {
+
+      > .children {
+        display: block;
+      }
+
+    }
+
+  }
+
+  .children {
+    display: none;
+    position: absolute;
+  }
+
+}
+
+.pagination {
+  text-align: center;
+
+  li {
+    display: inline-block;
+  }
+
+}
