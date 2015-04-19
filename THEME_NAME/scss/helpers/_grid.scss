@@ -1,87 +1,55 @@
 .container {
   @include clearfix();
   margin: 0 auto;
-  max-width: $media-large;
+  max-width: $grid-container;
   width: 90%;
 }
 
 .row {
   @include clearfix();
-  margin-left: -($grid-gutter / 2);
-  margin-right: -($grid-gutter / 2);
+  margin: 0 $grid-gutter / -2;
 }
 
 %col {
-  float: left;
-  height: auto;
+  margin: 0 $grid-gutter / 2;
   min-height: 1px;
-  padding-left: $grid-gutter / 2;
-  padding-right: $grid-gutter / 2;
-}
-
-@if (rtl == true) {
-
-  html[dir="rtl"] {
-
-    %col {
-      float: right;
-    }
-
-  }
-
 }
 
 @for $i from 1 through $grid-columns {
 
   .col-#{$i} {
     @extend %col;
-    width: ($i / $grid-columns) * 100%;
   }
 
 }
 
-@media screen and (min-width: $media-small + 1) and (max-width: $media-medium) {
-
-  @for $i from 1 through $grid-columns {
-
-    .col-#{$i}-md {
-      width: ($i / $grid-columns) * 100%;
-    }
-
-  }
-
-}
-
-@media screen and (min-width: $media-tiny + 1) and (max-width: $media-small) {
-
-  @for $i from 1 through $grid-columns {
-
-    .col-#{$i}-sm {
-      width: ($i / $grid-columns) * 100%;
-    }
-
-  }
-
-}
-
-@media screen and (max-width: $media-small) {
+@media (min-width: $media-small) {
 
   @for $i from 1 through $grid-columns {
 
     .col-#{$i} {
-      width: 100%;
+      float: left;
+      width: (100% / $grid-columns * $i - $grid-gutter);
     }
 
   }
 
 }
 
-@media screen and (max-width: $media-tiny) {
+@if (rtl == true) {
 
-  @for $i from 1 through $grid-columns {
+  html[dir="rtl"] {
 
-    .col-#{$i}-xs {
-      width: ($i / $grid-columns) * 100%;
+    @media (min-width: $media-small) {
+
+      @for $i from 1 through $grid-columns {
+
+        .col-#{$i} {
+          float: right;
+        }
+
+      }
+
     }
 
   }

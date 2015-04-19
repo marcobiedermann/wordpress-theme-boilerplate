@@ -30,7 +30,7 @@ $font-family-code-fallback: monospace;
 
 // Spacing
 
-$margin-element-bottom: 3em;
+$margin-element-bottom: 3rem;
 
 // Adjustments
 
@@ -40,15 +40,16 @@ $rtl: false;
 
 // Grid
 
+$grid-container: 60rem;
 $grid-columns: 12;
 $grid-gutter: 2%;
 
 // Media Queries
 
-$media-tiny: 480px;
-$media-small: 640px;
-$media-medium: 960px;
-$media-large: 1248px;
+$media-tiny: 30rem;
+$media-small: 40rem;
+$media-medium: 60rem;
+$media-large: 78rem;
 
 // Paths
 
