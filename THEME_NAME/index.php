@@ -12,16 +12,16 @@
 
           <?php endwhile; else: ?>
 
-            <h1><?php _e( 'No posts were found!', 'THEME_NAME' ); ?></h1>
+            <h1><?php _e( 'No posts were found!', THEME_NAME ); ?></h1>
 
           <?php endif; ?>
 
           <ul class="pagination">
             <?php if ( get_next_posts_link() ) : ?>
-              <li><?php next_posts_link( __('Older Posts', 'THEME_NAME') ); ?></li>
+              <li><?php next_posts_link( __('Older Posts', THEME_NAME) ); ?></li>
             <?php endif; ?>
             <?php if ( get_previous_posts_link() ) : ?>
-              <li><?php previous_posts_link( __('Newer Posts', 'THEME_NAME') ); ?></li>
+              <li><?php previous_posts_link( __('Newer Posts', THEME_NAME) ); ?></li>
             <?php endif; ?>
           </ul>
 

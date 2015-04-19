@@ -3,13 +3,13 @@
   <header>
 
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <p class="post-date"><?php the_time( get_option( 'date_format' ) ); ?>, <?php _e( 'by', 'THEME_NAME' ); ?> <?php the_author_posts_link(); ?></p>
+    <p class="post-date"><?php the_time( get_option( 'date_format' ) ); ?>, <?php _e( 'by', THEME_NAME ); ?> <?php the_author_posts_link(); ?></p>
 
   </header>
 
   <main>
 
-    <?php the_content( __('Read more', 'THEME_NAME') ); ?>
+    <?php the_content( __('Read more', THEME_NAME) ); ?>
 
   </main>
 
