@@ -4,7 +4,7 @@
 
       <div class="row">
 
-        <main class="main col-8" role="main">
+        <main class="main col-8" role="main" temprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

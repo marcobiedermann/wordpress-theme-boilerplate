@@ -11,9 +11,9 @@
   <?php wp_head(); ?>
 
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
-  <header class="header" role="banner">
+  <header class="header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 
     <div class="container">
 
