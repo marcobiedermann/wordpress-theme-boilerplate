@@ -4,7 +4,7 @@
 
       <div class="row">
 
-        <main class="main col-8">
+        <main class="main col-8" role="main">
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -27,7 +27,7 @@
 
         </main>
 
-        <aside class="sidebar sidebar-right col-4">
+        <aside class="sidebar sidebar-right col-4" role="complementary">
 
           <?php get_sidebar(); ?>
 

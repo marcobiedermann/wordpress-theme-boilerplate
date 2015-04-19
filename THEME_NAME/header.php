@@ -13,7 +13,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-  <header class="header">
+  <header class="header" role="banner">
 
     <div class="container">
 
