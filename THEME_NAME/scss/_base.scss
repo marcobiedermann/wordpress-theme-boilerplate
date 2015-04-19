@@ -13,15 +13,9 @@
 
 }
 
-@include placeholder {
-  color: $color-border;
-  font-style: italic;
-}
-
--moz-::selection,
 ::selection {
-  background: $color;
-  color: $color-bg;
+  background: $color-base;
+  color: $color-base-bg;
   text-shadow: none;
 }
 
@@ -31,19 +25,19 @@ template {
 }
 
 html {
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-size: 100%;
+  font-smoothing: grayscale;
   height: 100%;
   text-rendering: optimizeLegibility;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: $color-bg;
-  color: $color;
-  font: $font-weight #{$font-size}/#{$line-height} $font-family, $font-family-fallback;
+  background: $color-base-bg;
+  color: $color-base;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family, $base-font-family-fallback;
   height: 100%;
   margin: 0;
   position: relative;
@@ -52,7 +46,6 @@ body {
 article,
 aside,
 details,
-dialog,
 figure,
 figcaption,
 footer,
@@ -89,6 +82,7 @@ a {
     color: $color-link-active;
   }
 
+  &:focus,
   &:hover {
     color: $color-link-hover;
   }
@@ -110,7 +104,7 @@ strong {
 }
 
 blockquote {
-  margin: 0;
+  margin: 0 0 1.5rem;
   quotes: '\201C' '\201D' '\2018' '\2019';
 
   p {
@@ -128,9 +122,9 @@ blockquote {
 }
 
 button {
-  background: $color-btn-bg;
+  background: transparent;
   border: 0;
-  color: $color-btn;
+  color: inherit;
   cursor: pointer;
   font: inherit;
   margin: 0;
@@ -138,15 +132,11 @@ button {
   padding: 0;
   text-transform: none;
 
-  &:hover {
-    background: $color-btn-hover-bg;
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
   }
 
-}
-
-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
 }
 
 canvas {
@@ -155,7 +145,27 @@ canvas {
 
 code {
   font-family: $font-family-code, $font-family-code-fallback;
-  font-size: 1em;
+  font-size: 1rem;
+}
+
+dialog {
+  border: 0;
+  display: none;
+  padding: 1rem;
+
+  &::backdrop {
+    background: rgba(0, 0, 0, .5);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+
+  &[open] {
+    display: block;
+  }
+
 }
 
 embed,
@@ -172,7 +182,8 @@ fieldset {
 }
 
 figure,
-figcaption {
+figcaption,
+header {
   display: block;
   margin: 0;
 }
@@ -185,7 +196,7 @@ footer {
 
 %headings {
   color: inherit;
-  font-family: $font-family-headings, $font-family-fallback;
+  font-family: $font-family-headings, $base-font-family-fallback;
   font-weight: $font-weight-headings;
 }
 
@@ -194,15 +205,10 @@ footer {
   h#{$i} {
     @extend %headings;
     font-size: nth($font-size-headings, $i);
-    // line-height: 1em + (1 / (nth($font-size-headings, $i) / .5em));
-    // margin: 0 0 1em / (nth($font-size-headings, $i) / .5em) 0;
+    line-height: 1.2em;
+    margin: 0 0 .5rem;
   }
 
-}
-
-header {
-  display: block;
-  margin: 0;
 }
 
 hr {
@@ -210,11 +216,10 @@ hr {
   border: 0;
   box-sizing: content-box;
   height: 1px;
-  margin: 0 0 1.5em;
+  margin: 0 0 1.5rem;
 }
 
 img {
-  border: 0;
   display: block;
   height: auto;
   max-width: 100%;
@@ -226,60 +231,51 @@ textarea {
   border: 0;
   border-radius: 0;
   color: inherit;
-  font: $font-weight #{$font-size}/#{$line-height} $font-family, $font-family-fallback;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family, $base-font-family-fallback;
   margin: 0;
   outline-color: $color-primary;
   padding: 0;
-}
-
-input {
   transition: all .3s;
 }
 
-select {
+input,
+textarea {
+
+  &::placeholder {
+    color: $color-placeholder;
+  }
+
+}
+
+input {
+
+  &[type="reset"],
+  &[type="submit"] {
+    -webkit-appearance: button;
+    background: $color-btn-bg;
+    color: $color-btn;
+    cursor: pointer;
+
+    &:focus,
+    &:hover {
+      background: $color-btn-hover-bg;
+    }
+
+  }
+
+  &[type="search"] {
+    -webkit-appearance: textfield;
+  }
 
 }
 
 textarea {
+  max-width: 100%;
   overflow: auto;
-  resize: vertical;
+  resize: none;
   vertical-align: top;
   width: 100%;
 }
-
-.input-reset,
-.input-submit {
-  -webkit-appearance: button;
-  background: $color-btn-bg;
-  color: $color-btn;
-  cursor: pointer;
-
-  &:hover {
-    background: $color-btn-hover-bg;
-  }
-}
-
-.input-search {
-  -webkit-appearance: textfield;
-}
-
-::-webkit-input-placeholder {
-  color: inherit;
-}
-
-::-moz-placeholder {
-  color: inherit;
-}
-
-:-moz-placeholder {
-  color: inherit;
-}
-
-:-ms-input-placeholder {
-  color: inherit;
-}
-
-
 
 label {
   color: inherit;
@@ -294,7 +290,7 @@ label {
 legend {
   border: 0;
   display: block;
-  padding: 0 .25em;
+  padding: 0 .25rem;
   position: relative;
 }
 
@@ -306,15 +302,14 @@ progress {
 dl,
 ol,
 ul {
-  list-style-position: inside;
-  margin: 0 0 1.5em;
-  padding: 0;
+  margin: 0 0 1.5rem;
+  padding: 0 0 0 1.25rem;
 
   dd,
   ol,
   ul {
-    margin: .5em 0 0;
-    padding-left: 1.5em;
+    margin: .5rem 0 0;
+    padding-left: 1.25rem;
   }
 
   dd {
@@ -322,18 +317,18 @@ ul {
   }
 
   li {
-    margin-bottom: .5em;
+    margin-bottom: .25rem;
   }
 
 }
 
 p {
-  margin: 0 0 .5em;
+  margin: 0 0 1.5rem;
 }
 
 pre {
   display: block;
-  margin: 0;
+  margin: 0 0 1.5rem;
   overflow: auto;
   word-break: break-all;
   word-wrap: break-word;
@@ -344,41 +339,47 @@ q {
 }
 
 small {
-  font-size: .75em;
+  font-size: .75rem;
 }
 
 summary {
-  outline: none;
+
+  &:focus {
+    outline: none;
+  }
+
 }
 
 sub,
 sup {
-  font-size: .75em;
+  font-size: .75rem;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
 sup {
-  top: -.5em;
+  top: -.5rem;
 }
 
 sub {
-  bottom: -.25em;
+  bottom: -.25rem;
 }
 
 svg {
   height: auto;
   max-width: 100%;
-}
 
-svg:not(:root) {
-  overflow: hidden;
+  &:not(:root) {
+    overflow: hidden;
+  }
+
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  margin: 0 0 1.5rem;
   text-align: left;
   width: 100%;
 }

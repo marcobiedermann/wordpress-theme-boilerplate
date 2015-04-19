@@ -1,9 +1,9 @@
 // Base
 
-$color: #686868;
-$color-bg: #fafafa;
+$color-base: #686868;
+$color-base-bg: #fafafa;
 
-$color-headings: $color;
+$color-headings: $color-base;
 
 // Links
 
@@ -52,8 +52,10 @@ $color-footer-bg: #fafafa;
 
 // Input
 
-$color-input: $color-bg;
-$color-input-bg: $color;
+$color-input: $color-base-bg;
+$color-input-bg: $color-base;
+
+$color-placeholder: $color-border;
 
 // Typography
 

@@ -29,13 +29,13 @@
 .post-categories {
   @include clearfix();
   @include list-unstyled();
-  font-size: .875em;
-  line-height: 1.5em;
-  margin: -.25em -.5em;
+  font-size: .875rem;
+  line-height: 1.5rem;
+  margin: -.25rem -.5rem;
 
   li {
     float: left;
-    margin: .25em .5em;
+    margin: .25rem .5rem;
   }
 
 }
@@ -43,13 +43,13 @@
 .post-tags {
   @include clearfix();
   @include list-unstyled();
-  font-size: .875em;
-  line-height: 1.5em;
-  margin: -.25em -.5em;
+  font-size: .875rem;
+  line-height: 1.5rem;
+  margin: -.25rem -.5rem;
 
   li {
     float: left;
-    margin: .25em .5em;
+    margin: .25rem .5rem;
   }
 
 }
