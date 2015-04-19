@@ -394,6 +394,14 @@ video {
     float: left;
     margin: .25rem .5rem; }
 
+.widget {
+  margin-bottom: 2rem; }
+  .widget select {
+    border: 1px solid #808080;
+    height: 2em;
+    padding: .25rem .5rem;
+    width: 100%; }
+
 .container {
   margin: 0 auto;
   max-width: 60rem;
