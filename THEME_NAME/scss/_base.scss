@@ -145,7 +145,17 @@ canvas {
 
 code {
   font-family: $font-family-code, $font-family-code-fallback;
-  font-size: 1rem;
+  font-size: .875rem;
+  word-wrap: normal;
+}
+
+pre {
+  background-color: $color-code-bg;
+  display: block;
+  margin: 0 0 1.5rem;
+  overflow: auto;
+  padding: 1rem;
+  word-wrap: normal;
 }
 
 dialog {
