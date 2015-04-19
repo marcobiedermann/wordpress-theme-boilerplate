@@ -1,26 +1,26 @@
-@import '_variables';
-@import '_colors';
+@import 'variables';
+@import 'colors';
 
-@import 'helpers/_mixins';
+@import 'helpers/mixins';
 
-@import '_base';
+@import 'base';
 
-@import 'modules/_comments';
-@import 'modules/_navigation';
-@import 'modules/_posts';
+@import 'modules/comments';
+@import 'modules/navigation';
+@import 'modules/posts';
 
-@import 'widgets/_widgets';
-@import 'widgets/_archive';
-@import 'widgets/_calendar';
-@import 'widgets/_categories';
-@import 'widgets/_comments';
-@import 'widgets/_meta';
-@import 'widgets/_pages';
-@import 'widgets/_recent-comments';
-@import 'widgets/_recent-posts';
-@import 'widgets/_search';
-@import 'widgets/_tag-cloud';
-@import 'widgets/_text';
+@import 'widgets/widgets';
+@import 'widgets/archive';
+@import 'widgets/calendar';
+@import 'widgets/categories';
+@import 'widgets/comments';
+@import 'widgets/meta';
+@import 'widgets/pages';
+@import 'widgets/recent-comments';
+@import 'widgets/recent-posts';
+@import 'widgets/search';
+@import 'widgets/tag-cloud';
+@import 'widgets/text';
 
-@import 'helpers/_grid';
-@import 'helpers/_utilities';
+@import 'helpers/grid';
+@import 'helpers/utilities';
