@@ -1,0 +1,19 @@
+{
+  "name": "wordpress-theme-template",
+  "version": "1.0.0",
+  "description": "Compatible with WordPress 4.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcobiedermann/wordpress-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcobiedermann/wordpress-template/issues"
+  },
+  "homepage": "https://github.com/marcobiedermann/wordpress-template"
+}

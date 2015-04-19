@@ -1,6 +1,8 @@
+[![devDependency Status](https://david-dm.org/marcobiedermann/wordpress-template/dev-status.svg)](https://david-dm.org/marcobiedermann/wordpress-template#info=devDependencies)
+
 # WordPress Theme Template
 
-Compatible with WordPress 4.0.1
+Compatible with WordPress 4.1.1
 
 * function
 * index
