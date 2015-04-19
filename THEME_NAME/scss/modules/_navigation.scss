@@ -1,15 +1,16 @@
 .menu {
 
   .page_item {
-  }
 
-  .page_item_has_children {
-    position: relative;
+    &_has_children {
+      position: relative;
 
-    &:hover {
+      &:hover {
 
-      > .children {
-        display: block;
+        > .children {
+          display: block;
+        }
+
       }
 
     }

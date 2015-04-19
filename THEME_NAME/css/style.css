@@ -355,9 +355,6 @@ video {
   .pagination li {
     display: inline-block; }
 
-.wp-caption {
-  max-width: 100%; }
-
 .post-categories {
   list-style: none;
   margin: 0;
@@ -375,7 +372,6 @@ video {
   .post-categories li {
     float: left;
     margin: .25rem .5rem; }
-
 .post-tags {
   list-style: none;
   margin: 0;
@@ -393,6 +389,9 @@ video {
   .post-tags li {
     float: left;
     margin: .25rem .5rem; }
+
+.wp-caption {
+  max-width: 100%; }
 
 .widget {
   margin-bottom: 2rem; }

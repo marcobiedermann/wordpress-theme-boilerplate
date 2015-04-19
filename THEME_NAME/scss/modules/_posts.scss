@@ -16,40 +16,40 @@
 
   }
 
+  &-edit-link {
+
+  }
+
+  &-categories {
+    @include clearfix();
+    @include list-unstyled();
+    font-size: .875rem;
+    line-height: 1.5rem;
+    margin: -.25rem -.5rem;
+
+    li {
+      float: left;
+      margin: .25rem .5rem;
+    }
+
+  }
+
+  &-tags {
+    @include clearfix();
+    @include list-unstyled();
+    font-size: .875rem;
+    line-height: 1.5rem;
+    margin: -.25rem -.5rem;
+
+    li {
+      float: left;
+      margin: .25rem .5rem;
+    }
+
+  }
+
 }
 
 .wp-caption {
   max-width: 100%;
-}
-
-.post-edit-link {
-
-}
-
-.post-categories {
-  @include clearfix();
-  @include list-unstyled();
-  font-size: .875rem;
-  line-height: 1.5rem;
-  margin: -.25rem -.5rem;
-
-  li {
-    float: left;
-    margin: .25rem .5rem;
-  }
-
-}
-
-.post-tags {
-  @include clearfix();
-  @include list-unstyled();
-  font-size: .875rem;
-  line-height: 1.5rem;
-  margin: -.25rem -.5rem;
-
-  li {
-    float: left;
-    margin: .25rem .5rem;
-  }
-
 }
