@@ -1,19 +1,19 @@
 {
-  "name": "wordpress-theme-template",
+  "name": "wordpress-theme-boilerplate",
   "version": "1.0.0",
-  "description": "Compatible with WordPress 4.0.1",
-  "main": "index.js",
+  "author": "Marco Biedermann",
+  "homepage": "https://www.marcobiedermann.com/",
+  "description": "WordPress Theme Boilerplate",
+  "main": "index.php",
   "scripts": {
     "css": "sass --watch THEME_NAME/scss/style.scss:THEME_NAME/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcobiedermann/wordpress-template.git"
+    "url": "https://github.com/marcobiedermann/wordpress-boilerplate.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcobiedermann/wordpress-template/issues"
+    "url": "https://github.com/marcobiedermann/wordpress-boilerplate/issues"
   },
-  "homepage": "https://github.com/marcobiedermann/wordpress-template"
+  "license": "ISC"
 }
