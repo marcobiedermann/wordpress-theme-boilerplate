@@ -17,7 +17,7 @@
         <?php endif; ?>
 
         <h3>About <?php the_author_posts_link(); ?></h3>
-        <?php echo get_avatar( get_the_author_meta( 'ID' ) ); ?>
+        <?= get_avatar( get_the_author_meta( 'ID' ) ); ?>
         <p><?php the_author_meta( 'description' ); ?></p>
 
         <div id="comments">

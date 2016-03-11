@@ -2,7 +2,7 @@
 
   // Constants
 
-  define( 'THEME_NAME', 'THEME_NAME');
+  define( 'THEME_NAME', 'THEME_NAME' );
   define( 'THEMEROOT', get_stylesheet_directory_uri() );
   define( 'IMAGES', THEMEROOT . '/images' );
   define( 'SCRIPTS', THEMEROOT . '/js' );
@@ -48,5 +48,3 @@
     wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.0.0', 'all' );
     wp_enqueue_script( 'main_script', THEMEROOT . '/js/main.js', array('jquery'), '1.0.0', true );
   }
-
-?>

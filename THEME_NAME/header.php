@@ -6,7 +6,7 @@
   <title><?php bloginfo( 'name' ); ?> | <?php is_front_page() ? bloginfo( 'description' ) : wp_title(''); ?></title>
   <meta name="description" content="<?php bloginfo( 'description' ); ?>">
 
-  <link rel="shortcut icon" href="<?php echo IMAGES ?>/favicon.ico">
+  <link rel="shortcut icon" href="<?= IMAGES ?>/favicon.ico">
 
   <?php wp_head(); ?>
 
@@ -21,9 +21,9 @@
 
       <div class="logo">
 
-        <a href="<?php echo home_url(); ?>">
+        <a href="<?= home_url(); ?>">
 
-          <img src="<?php echo IMAGES ?>/logo.png" alt="<?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?>">
+          <img src="<?= IMAGES ?>/logo.png" alt="<?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?>">
 
         </a>
 
