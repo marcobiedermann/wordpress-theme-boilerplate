@@ -29,6 +29,9 @@ add_theme_support( 'post-formats', array(
   'video',
 ) );
 
+// Load translation files
+load_theme_textdomain( THEME_NAME, get_template_directory() . '/languages' );
+
 // Register Menus
 register_nav_menus( array(
   'primary' => __( 'Primary Menu', THEME_NAME )
