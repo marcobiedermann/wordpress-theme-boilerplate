@@ -1,3 +1,5 @@
-<?php if ( !function_exists( 'dynamic_sidebar') || !dynamic_sidebar('sidebar-right')) : ?>
-  no widgets here
+<?php if ( is_active_sidebar( 'sidebar') ) : ?>
+  <aside class="sidebar col-4" role="complementary">
+    <?php dynamic_sidebar( 'sidebar' ); ?>
+  </aside>
 <?php endif; ?>

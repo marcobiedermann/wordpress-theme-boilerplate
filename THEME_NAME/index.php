@@ -27,11 +27,7 @@
 
         </main>
 
-        <aside class="sidebar sidebar-right col-4" role="complementary">
-
-          <?php get_sidebar(); ?>
-
-        </aside>
+        <?php get_sidebar(); ?>
 
       </div>
 

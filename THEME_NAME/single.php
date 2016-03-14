@@ -37,11 +37,7 @@
 
       </main>
 
-      <aside class="sidebar sidebar-right col-4">
-
-        <?php get_sidebar(); ?>
-
-      </aside>
+      <?php get_sidebar(); ?>
 
     </div>
 

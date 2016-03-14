@@ -17,20 +17,13 @@
   ) );
 
   // Register sidebar
-
-  if ( function_exists( 'register_sidebar') ) {
-
-    register_sidebar(
-      array(
-        'name' => __( 'Right Sidebar', THEME_NAME ),
-        'id' => 'sidebar-right',
-        'description' => __( 'Right Sidebar content', THEME_NAME ),
-        'before_widget' => '<div class="widget">',
-        'after_widget' => '</div>'
-      )
-    );
-
-  }
+  register_sidebar(
+    array(
+      'id'          => 'sidebar',
+      'description' => __( 'Sidebar content', THEME_NAME ),
+      'name'        => __( 'Sidebar', THEME_NAME ),
+    )
+  );
 
   // Post format and featured Image
 
