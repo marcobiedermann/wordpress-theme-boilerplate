@@ -7,15 +7,14 @@
   define( 'IMAGES', THEMEROOT . '/images' );
   define( 'SCRIPTS', THEMEROOT . '/js' );
 
+  // Add Theme Support
+  add_theme_support( 'title-tag' );
+  add_theme_support( 'automatic-feed-links' );
+
   // Register Menus
-
-  function register_menus() {
-    register_nav_menus( array(
-      'nav-main' => __( 'Main Navigation', THEME_NAME )
-    ) );
-  }
-
-  add_action( 'init', 'register_menus' );
+  register_nav_menus( array(
+    'primary' => __( 'Primary Menu', THEME_NAME )
+  ) );
 
   // Register sidebar
 
