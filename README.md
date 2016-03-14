@@ -1,5 +1,3 @@
-[![Dependency Status](https://david-dm.org/marcobiedermann/wordpress-theme-boilerplate.svg)](https://david-dm.org/marcobiedermann/wordpress-theme-boilerplate)
-
 # WordPress Theme Template
 
 ## Features
