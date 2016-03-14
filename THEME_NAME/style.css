@@ -99,8 +99,32 @@ td {
 .grid {
   margin-left: auto;
   margin-right: auto;
-  max-width: 640px;
+  max-width: 1170px;
   width: 90%; }
+
+.grid-row {
+  margin: -1.5%; }
+  .grid-row:before, .grid-row:after {
+    content: ' ';
+    display: table; }
+  .grid-row:after {
+    clear: both; }
+
+.grid-col {
+  float: left;
+  margin: 1.5%; }
+
+.grid-col-3 {
+  width: 22%; }
+
+.grid-col-4 {
+  width: 30.33333%; }
+
+.grid-col-8 {
+  width: 63.66667%; }
+
+.grid-col-9 {
+  width: 72%; }
 
 .header {
   background-color: #3e9487;

@@ -1,6 +1,6 @@
   <footer class="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 
-    <div class="container">
+    <div class="grid">
 
       <p><a href="#top"><?php _e( 'Go to Top', THEME_NAME ); ?></a></p>
       <p>© <span itemprop="copyrightYear"><?= date( 'Y' ); ?></span> <a href="<?= home_url(); ?>"><?php bloginfo( 'name' ); ?></a></p>

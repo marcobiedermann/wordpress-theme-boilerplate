@@ -14,7 +14,7 @@
 
   <header class="header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 
-    <div class="container">
+    <div class="grid">
 
       HEADER
 

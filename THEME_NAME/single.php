@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-  <div class="container">
+  <div class="grid">
 
-    <div class="row">
+    <div class="grid-row">
 
-      <main class="main col-8">
+      <main class="main grid-col grid-col-9">
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
