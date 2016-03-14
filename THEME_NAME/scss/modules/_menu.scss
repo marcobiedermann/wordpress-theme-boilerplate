@@ -1,5 +1,11 @@
 .menu {
 
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .page_item {
 
     &_has_children {
@@ -20,15 +26,6 @@
   .children {
     display: none;
     position: absolute;
-  }
-
-}
-
-.pagination {
-  text-align: center;
-
-  li {
-    display: inline-block;
   }
 
 }

@@ -1,0 +1,12 @@
+$header-bgcolor: #3e9487;
+$header-color: #fafafa;
+
+.header {
+  background-color: $header-bgcolor;
+  color: $header-color;
+
+  a {
+    color: $header-color;
+  }
+
+}

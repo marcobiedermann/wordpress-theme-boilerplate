@@ -1,0 +1,12 @@
+$footer-bgcolor: #3e9487;
+$footer-color: #fafafa;
+
+.footer {
+  background-color: $footer-bgcolor;
+  color: $footer-color;
+
+  a {
+    color: $footer-color;
+  }
+
+}
