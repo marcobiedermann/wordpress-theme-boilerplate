@@ -9,6 +9,25 @@ define( 'SCRIPTS', THEMEROOT . '/js' );
 // Add Theme Support
 add_theme_support( 'title-tag' );
 add_theme_support( 'automatic-feed-links' );
+add_theme_support( 'html5', array(
+  'search-form',
+  'comment-form',
+  'comment-list',
+  'gallery',
+  'caption',
+) );
+add_theme_support( 'post-thumbnails' );
+add_theme_support( 'post-formats', array(
+  'aside',
+  'audio',
+  'chat',
+  'gallery',
+  'image',
+  'link',
+  'quote',
+  'status',
+  'video',
+) );
 
 // Register Menus
 register_nav_menus( array(
@@ -24,11 +43,7 @@ register_sidebar(
   )
 );
 
-// Post format and featured Image
-add_theme_support( 'post-formats', array( 'link', 'quote', 'gallery' ) );
-add_theme_support( 'post-thumbnails', array( 'post' ) );
-
-// Load Styles
+// Load Stylesheets
 wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.0.0', 'all' );
 
 // Load Scripts
