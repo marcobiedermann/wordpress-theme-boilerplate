@@ -29,9 +29,24 @@ body {
   min-height: 100%;
 }
 
+$anchor-color: #3e9487;
+$anchor-text-decoration: none;
+
+$anchor-hover-color: darken(#3e9487, 10%);
+
 a {
-  color: #3e9487;
-  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  color: $anchor-color;
+  outline: 0;
+  text-decoration: $anchor-text-decoration;
+  transition: background-color .3s, color .3s;
+
+  &:focus,
+  &:hover {
+    color: $anchor-hover-color;
+  }
+
 }
 
 figure {

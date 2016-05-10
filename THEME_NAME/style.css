@@ -32,8 +32,14 @@ body {
   min-height: 100%; }
 
 a {
+  background-color: transparent;
+  border: 0;
   color: #3e9487;
-  text-decoration: none; }
+  outline: 0;
+  text-decoration: none;
+  transition: background-color .3s, color .3s; }
+  a:focus, a:hover {
+    color: #2f7066; }
 
 figure {
   margin: 0; }
