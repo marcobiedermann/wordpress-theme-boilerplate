@@ -54,9 +54,29 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
+b,
+strong {
+  font-weight: bolder; }
+
 p {
   margin-bottom: 1.5rem;
   margin-top: 0; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
 
 code {
   font-family: "Courier New", monospace;
