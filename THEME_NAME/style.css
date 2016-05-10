@@ -68,10 +68,7 @@ ul {
   ol ul,
   ul ol,
   ul ul {
-    margin-bottom: .5rem; }
-  ol li,
-  ul li {
-    margin-bottom: .25rem; }
+    margin-bottom: 0.5rem; }
 
 table {
   border-collapse: collapse;
