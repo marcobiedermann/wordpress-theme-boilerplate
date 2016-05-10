@@ -1,3 +1,5 @@
+$html-font-size: 100%;
+
 $base-font-family-fallback: sans-serif;
 $base-font-family: Roboto;
 $base-font-size: 1rem;
@@ -12,7 +14,10 @@ $base-line-height: 1.5;
 
 html {
   box-sizing: border-box;
+  font-size: $html-font-size;
   height: 100%;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
 }
 
 body {
