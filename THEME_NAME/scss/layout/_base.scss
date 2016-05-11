@@ -1,10 +1,10 @@
 $html-font-size: 100%;
 
-$base-font-family-fallback: sans-serif;
-$base-font-family: Roboto;
-$base-font-size: 1rem;
-$base-font-weight: 400;
-$base-line-height: 1.5;
+$body-font-family-fallback: sans-serif;
+$body-font-family: Roboto;
+$body-font-size: 1rem;
+$body-font-weight: 400;
+$body-line-height: 1.5;
 
 *,
 *::before,
@@ -21,10 +21,10 @@ html {
 }
 
 body {
-  font-family: $base-font-family, $base-font-family-fallback;
-  font-size: $base-font-size;
-  font-weight: $base-font-weight;
-  line-height: $base-line-height;
+  font-family: $body-font-family, $body-font-family-fallback;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+  line-height: $body-line-height;
   margin: 0;
   min-height: 100%;
 }

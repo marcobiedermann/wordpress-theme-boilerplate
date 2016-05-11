@@ -1,3 +1,5 @@
+$grid-columns: 12;
+$grid-gutter: 3%;
 $grid-max-width: 1170px;
 $grid-width: 90%;
 
@@ -10,26 +12,26 @@ $grid-width: 90%;
 
 .grid-row {
   @include clearfix();
-  margin: -1.5%;
+  margin: $grid-gutter / -2;
 }
 
 .grid-col {
   float: left;
-  margin: 1.5%;
+  margin: $grid-gutter / 2;
 }
 
 .grid-col-3 {
-  width: (100% / 12 * 3  - 3%);
+  width: (100% / $grid-columns * 3  - $grid-gutter);
 }
 
 .grid-col-4 {
-  width: (100% / 12 * 4  - 3%);
+  width: (100% / $grid-columns * 4  - $grid-gutter);
 }
 
 .grid-col-8 {
-  width: (100% / 12 * 8  - 3%);
+  width: (100% / $grid-columns * 8  - $grid-gutter);
 }
 
 .grid-col-9 {
-  width: (100% / 12 * 9  - 3%);
+  width: (100% / $grid-columns * 9  - $grid-gutter);
 }
