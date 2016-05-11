@@ -1,0 +1,13 @@
+$table-margin-bottom: 1.5rem;
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: $table-margin-bottom;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+}

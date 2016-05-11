@@ -1,0 +1,23 @@
+$code-font-family: 'Courier New';
+$code-font-family-fallback: monospace;
+$code-font-size: .75em;
+
+$pre-bg-color: #f5f5f5;
+$pre-margin-bottom: 1.5rem;
+$pre-margin-top: 0;
+$pre-padding: 1rem;
+
+code {
+  font-family: $code-font-family, $code-font-family-fallback;
+  font-size: $code-font-size;
+}
+
+pre {
+  background-color: $pre-bg-color;
+  display: block;
+  margin-bottom: $pre-margin-bottom;
+  margin-top: $pre-margin-top;
+  overflow: auto;
+  padding: $pre-padding;
+  word-break: break-all;
+}

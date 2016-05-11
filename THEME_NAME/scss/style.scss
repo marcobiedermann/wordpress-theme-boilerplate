@@ -13,22 +13,28 @@ Text Domain: THEME_NAME
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300,300italic,100italic,100);
 
-@import 'base';
-
 @import 'mixins/clearfix';
 
 @import 'helpers/alignment';
 @import 'helpers/accessibility';
 @import 'helpers/grid';
 
-@import 'layout/header';
+@import 'layout/base';
 @import 'layout/footer';
+@import 'layout/header';
 
+@import 'modules/anchor';
+@import 'modules/code';
 @import 'modules/comments';
+@import 'modules/embed';
 @import 'modules/gallery';
+@import 'modules/image';
+@import 'modules/list';
 @import 'modules/menu';
 @import 'modules/pagination';
 @import 'modules/posts';
+@import 'modules/table';
+@import 'modules/text';
 
 @import 'widgets/widgets';
 @import 'widgets/archive';
