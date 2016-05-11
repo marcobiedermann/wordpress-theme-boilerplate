@@ -1,0 +1,9 @@
+.pagination {
+  text-align: center;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: .25rem .5rem;
+}

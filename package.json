@@ -6,7 +6,7 @@
   "description": "WordPress Theme Boilerplate",
   "main": "index.php",
   "scripts": {
-    "css": "sass --watch THEME_NAME/scss/style.scss:THEME_NAME/style.css"
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/marcobiedermann/wordpress-boilerplate/issues"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-import": "^8.1.2"
+  }
 }

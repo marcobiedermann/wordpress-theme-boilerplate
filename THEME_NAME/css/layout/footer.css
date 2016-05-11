@@ -1,0 +1,17 @@
+:root {
+  --footerBgColor: #3e9487;
+  --footerColor: #fafafa;
+  --footerPaddingBottom: 1rem;
+  --footerPaddingTop: 1rem;
+}
+
+.footer {
+  background-color: var(--footerBgColor);
+  color: var(--footerColor);
+  padding-bottom: var(--footerPaddingBottom);
+  padding-top: var(--footerPaddingTop);
+}
+
+.footer a {
+  color: var(--footerColor);
+}

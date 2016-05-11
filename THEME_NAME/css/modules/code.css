@@ -1,0 +1,25 @@
+:root {
+  --codeFontFamily: 'Courier New';
+  --codeFontFamilyFallback: monospace;
+  --codeFontSize: .75em;
+
+  --preBgColor: #f5f5f5;
+  --preMarginBottom: 1.5rem;
+  --preMarginTop: 0;
+  --prePadding: 1rem;
+}
+
+code {
+  font-family: var(--codeFontFamily), var(--codeFontFamilyFallback);
+  font-size: var(--codeFontSize);
+}
+
+pre {
+  background-color: var(--preBgColor);
+  display: block;
+  margin-bottom: var(--preMarginBottom);
+  margin-top: var(--preMarginTop);
+  overflow: auto;
+  padding: var(--prePadding);
+  word-break: break-all;
+}

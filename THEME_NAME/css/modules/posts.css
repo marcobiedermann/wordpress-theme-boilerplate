@@ -1,0 +1,73 @@
+.post {
+  margin-bottom: 6rem;
+}
+
+.post header {
+
+}
+
+.post footer {
+
+}
+
+.post .title {
+
+}
+
+.post .info {
+
+}
+
+.post-edit-link {
+
+}
+
+.post-categories {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  list-style: none;
+  margin: -.25rem -.5rem;
+  padding: 0;
+}
+
+.post-categories::before,
+.post-categories::after {
+  content: ' ';
+  display: table;
+}
+
+.post-categories::after {
+  clear: both;
+}
+
+.post-categories li {
+  float: left;
+  margin: .25rem .5rem;
+}
+
+.post-tags {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  list-style: none;
+  margin: -.25rem -.5rem;
+  padding: 0;
+}
+
+.post-tags::before,
+.post-tags::after {
+  content: ' ';
+  display: table;
+}
+
+.post-tags::after {
+  clear: both;
+}
+
+.post-tags li {
+  float: left;
+  margin: .25rem .5rem;
+}
+
+.wp-caption {
+  max-width: 100%;
+}

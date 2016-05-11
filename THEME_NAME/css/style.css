@@ -1,0 +1,48 @@
+/*
+Theme Name: THEME_NAME
+Theme URI: http://wordpress.org/themes/THEME_NAME
+Author: Marco Biedermann
+Author URI: https://www.marcobiedermann.com/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0.0
+License: ISC
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: THEME_NAME
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300,300italic,100italic,100);
+
+@import 'helpers/alignment.css';
+@import 'helpers/accessibility.css';
+@import 'helpers/grid.css';
+
+@import 'layout/base.css';
+@import 'layout/footer.css';
+@import 'layout/header.css';
+
+@import 'modules/anchor.css';
+@import 'modules/code.css';
+@import 'modules/comments.css';
+@import 'modules/embed.css';
+@import 'modules/gallery.css';
+@import 'modules/image.css';
+@import 'modules/list.css';
+@import 'modules/menu.css';
+@import 'modules/pagination.css';
+@import 'modules/posts.css';
+@import 'modules/table.css';
+@import 'modules/text.css';
+
+@import 'widgets/widgets.css';
+@import 'widgets/archive.css';
+@import 'widgets/calendar.css';
+@import 'widgets/categories.css';
+@import 'widgets/comments.css';
+@import 'widgets/meta.css';
+@import 'widgets/pages.css';
+@import 'widgets/recent-comments.css';
+@import 'widgets/recent-posts.css';
+@import 'widgets/search.css';
+@import 'widgets/tag-cloud.css';
+@import 'widgets/text.css';

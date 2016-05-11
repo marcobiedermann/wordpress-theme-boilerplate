@@ -1,0 +1,17 @@
+:root {
+  --headerBgColor: #3e9487;
+  --headerColor: #fafafa;
+  --headerPaddingBottom: 1rem;
+  --headerPaddingTop: 1rem;
+}
+
+.header {
+  background-color: var(--headerBgColor);
+  color: var(--headerColor);
+  padding-bottom: var(--headerPaddingBottom);
+  padding-top: var(--headerPaddingTop);
+}
+
+.header a {
+  color: var(--headerColor);
+}
