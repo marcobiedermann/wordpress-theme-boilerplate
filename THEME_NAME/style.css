@@ -86,13 +86,17 @@ body {
 
 .footer {
   background-color: #3e9487;
-  color: #fafafa; }
+  color: #fafafa;
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
   .footer a {
     color: #fafafa; }
 
 .header {
   background-color: #3e9487;
-  color: #fafafa; }
+  color: #fafafa;
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
   .header a {
     color: #fafafa; }
 

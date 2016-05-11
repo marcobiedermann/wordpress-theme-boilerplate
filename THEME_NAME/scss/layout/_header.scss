@@ -1,9 +1,13 @@
 $header-bgcolor: #3e9487;
 $header-color: #fafafa;
+$header-padding-bottom: 1rem;
+$header-padding-top: 1rem;
 
 .header {
   background-color: $header-bgcolor;
   color: $header-color;
+  padding-bottom: $header-padding-bottom;
+  padding-top: $header-padding-top;
 
   a {
     color: $header-color;
