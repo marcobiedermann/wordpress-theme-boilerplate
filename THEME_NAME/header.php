@@ -16,16 +16,10 @@
 
     <div class="grid">
 
-      HEADER
-
       <div class="logo">
-
         <a href="<?= home_url(); ?>">
-
           <img src="<?= IMAGES ?>/logo.png" alt="<?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?>">
-
         </a>
-
       </div>
 
       <?php

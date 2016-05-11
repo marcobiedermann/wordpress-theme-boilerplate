@@ -15,15 +15,11 @@
   <main itemprop="articleBody description">
 
     <?php if ( has_post_thumbnail() ) : ?>
-
       <figure class="post-thumbnail">
-
         <a href="<?php the_permalink(); ?>">
           <?php the_post_thumbnail(); ?>
         </a>
-
       </figure>
-
     <?php endif; ?>
 
     <?php the_content( __('Read more', THEME_NAME) ); ?>
@@ -33,24 +29,18 @@
   <footer>
 
     <?php
-
       if (comments_open() && !post_password_required()) {
         comments_popup_link( '0 Comments', '1 Comment', '% Comments', 'article-meta-comments' );
         comments_template();
       }
-
     ?>
 
     <ul class="post-categories">
-
       <li itemprop="about"><?php the_category( '</li><li>' ); ?></li>
-
     </ul>
 
     <?php if ( has_tag() ): ?>
-
       <ul class="post-tags"><?php the_tags( '<li itemprop="keywords">', '</li><li>', '</li>' ); ?></ul>
-
     <?php endif; ?>
 
   </footer>

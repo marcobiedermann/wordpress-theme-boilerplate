@@ -16,17 +16,13 @@
   <footer>
 
     <?php
-
       if (comments_open() && !post_password_required()) {
         comments_popup_link( '0', '1', '%', 'article-meta-comments' );
       }
-
     ?>
 
     <ul class="post-categories">
-
       <li><?php the_category( '</li><li>' ); ?></li>
-
     </ul>
 
   </footer>

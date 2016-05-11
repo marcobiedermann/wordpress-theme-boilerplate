@@ -7,13 +7,9 @@
       <main class="main grid-col grid-col-9">
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
           <?php get_template_part( 'content', get_post_format() ); ?>
-
         <?php endwhile; else: ?>
-
           <h1><?php _e( 'No posts were found!', 'THEME_NAME' ); ?></h1>
-
         <?php endif; ?>
 
         <h3>About <?php the_author_posts_link(); ?></h3>
@@ -21,9 +17,7 @@
         <p><?php the_author_meta( 'description' ); ?></p>
 
         <div id="comments">
-
           <?php comments_template( '', true ); ?>
-
         </div>
 
         <ul class="pagination">
