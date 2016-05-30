@@ -1,9 +1,24 @@
+:root {
+  --paginationItemMargin: .5rem;
+
+  --paginationLinkPaddingHorizontal: .5rem;
+  --paginationLinkPaddingVertical: .25rem;
+}
+
 .pagination {
+  list-style: none;
+  margin: calc(var(--paginationItemMargin) * -1);
+  padding: 0;
   text-align: center;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: var(--paginationItemMargin);
 }
 
 .pagination a,
 .pagination span {
   display: inline-block;
-  padding: .25rem .5rem;
+  padding: var(--paginationLinkPaddingVertical) var(--paginationLinkPaddingHorizontal);
 }
