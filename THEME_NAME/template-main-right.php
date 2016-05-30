@@ -31,7 +31,7 @@ Template Name: Main content with right sidebar
 
         </main>
 
-        <?php get_sidebar('right'); ?>
+        <?php get_sidebar( 'right' ); ?>
 
       </div>
 

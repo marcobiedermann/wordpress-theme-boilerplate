@@ -31,8 +31,8 @@ Template Name: Main content with left and right sidebar
 
         </main>
 
-        <?php get_sidebar('left'); ?>
-        <?php get_sidebar('right'); ?>
+        <?php get_sidebar( 'left' ); ?>
+        <?php get_sidebar( 'right' ); ?>
 
       </div>
 

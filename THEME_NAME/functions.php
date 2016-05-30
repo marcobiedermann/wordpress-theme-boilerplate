@@ -41,7 +41,7 @@ register_nav_menus( array(
 register_sidebar(
   array(
     'id'          => 'sidebar-left',
-    'description' => __( 'Left Sidebar content', THEME_NAME ),
+    'description' => __( 'Left sidebar content', THEME_NAME ),
     'name'        => __( 'Left sidebar', THEME_NAME ),
   )
 );
