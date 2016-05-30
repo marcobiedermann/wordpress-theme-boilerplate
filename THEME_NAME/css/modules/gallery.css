@@ -7,11 +7,10 @@
   float: left;
   position: relative;
   overflow: hidden;
+}
 
-  img {
-    width: 100%;
-  }
-
+.gallery-item img {
+  width: 100%;
 }
 
 .gallery-item:hover .gallery-caption {
@@ -20,66 +19,66 @@
 
 .gallery-columns-2 {
 
-  .gallery-item {
-    width: (100% / 2);
-  }
+}
 
+.gallery-columns-2 .gallery-item {
+  width: calc(100% / 2);
 }
 
 .gallery-columns-3 {
 
-  .gallery-item {
-    width: (100% / 3);
-  }
+}
 
+.gallery-columns-3 .gallery-item {
+  width: calc(100% / 3);
 }
 
 .gallery-columns-4 {
 
-  .gallery-item {
-    width: (100% / 4);
-  }
+}
 
+.gallery-columns-4 .gallery-item {
+  width: calc(100% / 4);
 }
 
 .gallery-columns-5 {
 
-  .gallery-item {
-    width: (100% / 5);
-  }
+}
 
+.gallery-columns-5 .gallery-item {
+  width: calc(100% / 5);
 }
 
 .gallery-columns-6 {
 
-  .gallery-item {
-    width: (100% / 6);
-  }
+}
 
+.gallery-columns-6 .gallery-item {
+  width: calc(100% / 6);
 }
 
 .gallery-columns-7 {
 
-  .gallery-item {
-    width: (100% / 7);
-  }
+}
 
+.gallery-columns-7 .gallery-item {
+  width: calc(100% / 7);
 }
 
 .gallery-columns-8 {
 
-  .gallery-item {
-    width: (100% / 8);
-  }
+}
 
+.gallery-columns-8 .gallery-item {
+  width: calc(100% / 8);
 }
 
 .gallery-columns-9 {
 
-  .gallery-item {
-    width: (100% / 9);
-  }
+}
 
+.gallery-columns-9 .gallery-item {
+  width: calc(100% / 9);
 }
 
 .gallery-caption {
