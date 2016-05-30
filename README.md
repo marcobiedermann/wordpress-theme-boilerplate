@@ -1,7 +1,6 @@
 # WordPress Theme Template
 
 ## Features
-
 * function
 * index
 * header
@@ -17,9 +16,12 @@
 * contact
 * widgets
 
-## Requirements
-* WordPress installation
-* [Sass](http://sass-lang.com/)
+# Requirements
+* [Node.js](https://nodejs.org/)
+
+# Installation
+* Run `npm install`
 
 ## Usage
-* `npm run css`
+* Development: `npm run dev`
+* Production: `npm run build`
