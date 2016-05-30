@@ -7,6 +7,7 @@
   --preMarginBottom: 1.5rem;
   --preMarginTop: 0;
   --prePadding: 1rem;
+  --preTabSize: 2;
 }
 
 code {
@@ -21,5 +22,6 @@ pre {
   margin-top: var(--preMarginTop);
   overflow: auto;
   padding: var(--prePadding);
+  tab-size: var(--preTabSize);
   word-break: break-all;
 }
