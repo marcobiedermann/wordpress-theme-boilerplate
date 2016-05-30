@@ -4,7 +4,7 @@
 
       <div class="container">
 
-        <main class="main" role="main" temprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+        <main class="main" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <?php get_template_part( 'content', get_post_format() ); ?>
