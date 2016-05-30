@@ -699,23 +699,29 @@ sup {
 
 }
 
-.widget_search label {
+.search-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search-form label {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.search-form .search-reader-text {
 
 }
 
-.widget_search input {
+.search-form .search-field {
 
 }
 
-.widget_search .searchform {
-
-}
-
-.widget_search .screen-reader-text {
-
-}
-
-.widget_search #searchsubmit {
+.search-form .search-submit {
 
 }
 

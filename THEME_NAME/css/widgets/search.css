@@ -2,22 +2,22 @@
 
 }
 
-.widget_search label {
+.search-form {
+  display: flex;
+}
+
+.search-form label {
+  flex-grow: 1;
+}
+
+.search-form .search-reader-text {
 
 }
 
-.widget_search input {
+.search-form .search-field {
 
 }
 
-.widget_search .searchform {
-
-}
-
-.widget_search .screen-reader-text {
-
-}
-
-.widget_search #searchsubmit {
+.search-form .search-submit {
 
 }
