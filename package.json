@@ -6,6 +6,7 @@
   "description": "WordPress Theme Boilerplate",
   "main": "index.php",
   "scripts": {
+    "build": "gulp build",
     "dev": "gulp"
   },
   "repository": {

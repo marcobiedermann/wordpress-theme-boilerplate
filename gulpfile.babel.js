@@ -32,3 +32,7 @@ gulp.task('default', [
   'css',
   'watch'
 ]);
+
+gulp.task('build', [
+  'css'
+]);
