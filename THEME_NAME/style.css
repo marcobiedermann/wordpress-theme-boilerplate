@@ -106,6 +106,13 @@ body {
   min-height: 100%;
 }
 
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .footer {
   background-color: #3e9487;
   color: #fafafa;
@@ -126,6 +133,30 @@ body {
 
 .header a {
   color: #fafafa;
+}
+
+.main {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.sidebar-left {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.sidebar-left {
+
+}
+
+.sidebar {
+  -webkit-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+          flex-basis: 25%;
 }
 
 a {

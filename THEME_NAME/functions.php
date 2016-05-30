@@ -40,9 +40,17 @@ register_nav_menus( array(
 // Register sidebar
 register_sidebar(
   array(
-    'id'          => 'sidebar',
-    'description' => __( 'Sidebar content', THEME_NAME ),
-    'name'        => __( 'Sidebar', THEME_NAME ),
+    'id'          => 'sidebar-left',
+    'description' => __( 'Left Sidebar content', THEME_NAME ),
+    'name'        => __( 'Left sidebar', THEME_NAME ),
+  )
+);
+
+register_sidebar(
+  array(
+    'id'          => 'sidebar-right',
+    'description' => __( 'Right sidebar content', THEME_NAME ),
+    'name'        => __( 'Right sidebar', THEME_NAME ),
   )
 );
 

@@ -2,9 +2,9 @@
 
   <div class="grid">
 
-    <div class="grid-row">
+    <div class="container">
 
-      <main class="main grid-col grid-col-9">
+      <main class="main">
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <?php get_template_part( 'content', get_post_format() ); ?>
@@ -30,8 +30,6 @@
         </ul>
 
       </main>
-
-      <?php get_sidebar(); ?>
 
     </div>
 

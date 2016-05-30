@@ -16,8 +16,13 @@ Text Domain: THEME_NAME
 @import 'helpers/grid.css';
 
 @import 'layout/base.css';
+@import 'layout/container.css';
 @import 'layout/footer.css';
 @import 'layout/header.css';
+@import 'layout/main.css';
+@import 'layout/sidebar-left.css';
+@import 'layout/sidebar-right.css';
+@import 'layout/sidebar.css';
 
 @import 'modules/anchor.css';
 @import 'modules/code.css';

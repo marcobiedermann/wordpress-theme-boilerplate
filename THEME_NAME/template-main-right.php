@@ -1,4 +1,12 @@
-<?php get_header(); ?>
+<?php
+
+/*
+Template Name: Main content with right sidebar
+*/
+
+?>
+
+  <?php get_header(); ?>
 
     <div class="grid">
 
@@ -22,6 +30,8 @@
           </ul>
 
         </main>
+
+        <?php get_sidebar('right'); ?>
 
       </div>
 
