@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcobiedermann/wordpress-boilerplate.git"
+    "url": "https://github.com/marcobiedermann/wordpress-theme-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/marcobiedermann/wordpress-boilerplate/issues"
+    "url": "https://github.com/marcobiedermann/wordpress-theme-boilerplate/issues"
   },
   "license": "ISC",
   "devDependencies": {
