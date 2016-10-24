@@ -10,7 +10,7 @@ const dirs = {
 };
 
 gulp.task('css', () => {
-  gulp.src(`${dirs.src}/css/style.css`)
+  return gulp.src(`${dirs.src}/css/style.css`)
     .pipe(gulpSourcemaps.init())
     .pipe(gulpPostcss([
       postcssImport(),
