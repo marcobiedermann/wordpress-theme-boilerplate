@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/marcobiedermann/wordpress-theme-boilerplate/badge.svg)](https://snyk.io/test/github/marcobiedermann/wordpress-theme-boilerplate)
+
 # WordPress Theme Template
 
 ## Features
