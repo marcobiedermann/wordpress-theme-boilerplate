@@ -7,7 +7,7 @@
   "main": "index.php",
   "scripts": {
     "build": "gulp build",
-    "dev": "gulp"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
