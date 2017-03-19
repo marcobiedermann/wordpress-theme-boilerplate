@@ -4,7 +4,7 @@
 
 		<?php if ( is_single() ): ?>
 			<h1 itemprop="name headline"><?php the_title(); ?></h1>
-		<?php else: ?>
+		<?php else : ?>
 			<h2 itemprop="name headline"><a href="<?php the_permalink(); ?>" itemprop="url"><?php the_title(); ?></a></h2>
 		<?php endif; ?>
 
