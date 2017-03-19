@@ -3,25 +3,25 @@
 }
 
 .menu ul {
-  display: flex;
-  list-style: none;
-  margin: -0.5rem;
-  padding: 0;
+	display: flex;
+	list-style: none;
+	margin: -0.5rem;
+	padding: 0;
 }
 
 .menu .page_item {
-  margin: 0.5rem;
+	margin: 0.5rem;
 }
 
 .menu .page_item_has_children {
-  position: relative;
+	position: relative;
 }
 
 .menu .page_item_has_children:hover > .children {
-  display: block;
+	display: block;
 }
 
 .menu .children {
-  display: none;
-  position: absolute;
+	display: none;
+	position: absolute;
 }

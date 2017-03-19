@@ -1,20 +1,20 @@
 :root {
-  --paginationItemMargin: .5rem;
+	--paginationItemMargin: .5rem;
 
-  --paginationLinkPaddingHorizontal: .5rem;
-  --paginationLinkPaddingVertical: .25rem;
+	--paginationLinkPaddingHorizontal: .5rem;
+	--paginationLinkPaddingVertical: .25rem;
 }
 
 .pagination .nav-links {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .pagination .page-numbers {
-  display: inline-block;
-  padding: var(--paginationLinkPaddingVertical) var(--paginationLinkPaddingHorizontal);
+	display: inline-block;
+	padding: var(--paginationLinkPaddingVertical) var(--paginationLinkPaddingHorizontal);
 }
 
 .pagination .page-numbers.current {
-  font-weight: bold;
+	font-weight: bold;
 }

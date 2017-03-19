@@ -1,7 +1,7 @@
 .comments-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .comment {
@@ -25,11 +25,11 @@
 }
 
 .comment-formtextarea {
-  padding: .25rem .5rem;
+	padding: .25rem .5rem;
 }
 
 .comment-form .submit {
-  padding: .25rem 1rem;
+	padding: .25rem 1rem;
 }
 
 .comment-author {

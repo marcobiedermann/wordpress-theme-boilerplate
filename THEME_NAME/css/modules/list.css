@@ -1,21 +1,21 @@
 :root {
-  --listMarginBottom: 1.5rem;
-  --listMarginTop: 0;
-  --listPaddingLeft: 1.25rem;
+	--listMarginBottom: 1.5rem;
+	--listMarginTop: 0;
+	--listPaddingLeft: 1.25rem;
 
-  --listListMarginBottom: .5rem;
+	--listListMarginBottom: .5rem;
 }
 
 ol,
 ul {
-  margin-bottom: var(--listMarginBottom);
-  margin-top: var(--listMarginTop);
-  padding-left: var(--listPaddingLeft);
+	margin-bottom: var(--listMarginBottom);
+	margin-top: var(--listMarginTop);
+	padding-left: var(--listPaddingLeft);
 }
 
 ol ol,
 ol ul,
 ul ol,
 ul ul {
-  margin-bottom: var(--listListMarginBottom);
+	margin-bottom: var(--listListMarginBottom);
 }

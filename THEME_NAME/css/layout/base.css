@@ -1,32 +1,32 @@
 :root {
-  --htmlFontSize: 100%;
+	--htmlFontSize: 100%;
 
-  --bodyFontFamilyFallback: sans-serif;
-  --bodyFontFamily: Roboto;
-  --bodyFontSize: 1rem;
-  --bodyFontWeight: 400;
-  --bodyLineHeight: 1.5;
+	--bodyFontFamilyFallback: sans-serif;
+	--bodyFontFamily: Roboto;
+	--bodyFontSize: 1rem;
+	--bodyFontWeight: 400;
+	--bodyLineHeight: 1.5;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 html {
-  box-sizing: border-box;
-  font-size: var(--htmlFontSize);
-  height: 100%;
-  text-rendering: optimizeLegibility;
-  text-size-adjust: 100%;
+	box-sizing: border-box;
+	font-size: var(--htmlFontSize);
+	height: 100%;
+	text-rendering: optimizeLegibility;
+	text-size-adjust: 100%;
 }
 
 body {
-  font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
-  font-size: var(--bodyFontSize);
-  font-weight: var(--bodyFontWeight);
-  line-height: var(--bodyLineHeight);
-  margin: 0;
-  min-height: 100%;
+	font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+	font-size: var(--bodyFontSize);
+	font-weight: var(--bodyFontWeight);
+	line-height: var(--bodyLineHeight);
+	margin: 0;
+	min-height: 100%;
 }

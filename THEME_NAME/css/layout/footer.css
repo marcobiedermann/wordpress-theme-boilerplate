@@ -1,23 +1,23 @@
 :root {
-  --footerBgColor: #3e9487;
-  --footerColor: #fafafa;
-  --footerPaddingBottom: 1rem;
-  --footerPaddingTop: 1rem;
+	--footerBgColor: #3e9487;
+	--footerColor: #fafafa;
+	--footerPaddingBottom: 1rem;
+	--footerPaddingTop: 1rem;
 }
 
 .footer {
-  background-color: var(--footerBgColor);
-  color: var(--footerColor);
-  padding-bottom: var(--footerPaddingBottom);
-  padding-top: var(--footerPaddingTop);
+	background-color: var(--footerBgColor);
+	color: var(--footerColor);
+	padding-bottom: var(--footerPaddingBottom);
+	padding-top: var(--footerPaddingTop);
 }
 
 .footer a {
-  color: var(--footerColor);
+	color: var(--footerColor);
 }
 
 .footer .grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }

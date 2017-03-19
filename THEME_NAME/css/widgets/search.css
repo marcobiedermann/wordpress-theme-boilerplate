@@ -3,11 +3,11 @@
 }
 
 .search-form {
-  display: flex;
+	display: flex;
 }
 
 .search-form label {
-  flex-grow: 1;
+	flex-grow: 1;
 }
 
 .search-form .search-reader-text {

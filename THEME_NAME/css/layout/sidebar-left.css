@@ -1,4 +1,4 @@
 .sidebar-left {
-  margin-right: var(--gridGutter);
-  order: -1;
+	margin-right: var(--gridGutter);
+	order: -1;
 }
