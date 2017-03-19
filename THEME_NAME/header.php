@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link rel="shortcut icon" href="<?= IMAGES ?>/favicon.ico">
+	<link rel="shortcut icon" href="<? echo IMAGES ?>/favicon.ico">
 
 	<?php wp_head(); ?>
 </head>
@@ -17,8 +17,8 @@
 		<div class="grid">
 
 			<div class="logo">
-				<a href="<?= home_url(); ?>">
-					<img src="<?= IMAGES ?>/logo.png" alt="<?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?>">
+				<a href="<? echo home_url(); ?>">
+					<img src="<? echo IMAGES ?>/logo.png" alt="<?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?>">
 				</a>
 			</div>
 

@@ -3,7 +3,7 @@
 		<div class="grid">
 
 			<p><a href="#top"><?php _e( 'Go to Top', THEME_NAME ); ?></a></p>
-			<p>© <span itemprop="copyrightYear"><?= date( 'Y' ); ?></span> <a href="<?= home_url(); ?>"><?php bloginfo( 'name' ); ?></a></p>
+			<p>© <span itemprop="copyrightYear"><? echo date( 'Y' ); ?></span> <a href="<? echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></p>
 
 		</div>
 
