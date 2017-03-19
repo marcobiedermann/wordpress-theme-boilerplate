@@ -29,6 +29,9 @@ add_theme_support( 'post-formats', array(
   'video',
 ) );
 
+// WooCommerce
+add_theme_support( 'woocommerce' );
+
 // Remove generator tag
 function remove_generator() {
   return '';
