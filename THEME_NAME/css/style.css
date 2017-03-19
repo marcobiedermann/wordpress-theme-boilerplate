@@ -25,9 +25,11 @@ Text Domain: THEME_NAME
 @import 'layout/sidebar.css';
 
 @import 'modules/anchor.css';
+@import 'modules/blockquote.css';
 @import 'modules/code.css';
 @import 'modules/comments.css';
 @import 'modules/embed.css';
+@import 'modules/form.css';
 @import 'modules/gallery.css';
 @import 'modules/image.css';
 @import 'modules/list.css';
