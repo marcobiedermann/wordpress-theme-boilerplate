@@ -2,11 +2,12 @@ language: php
 php:
   - '7.0'
 before_install:
-  - export PHPCS_DIR=/tmp/phpcs; fi
-  - export SNIFFS_DIR=/tmp/sniffs; fi
-  - then git clone -b master --depth 1 https://github.com/squizlabs/PHP_CodeSniffer.git $PHPCS_DIR; fi
-  - then git clone -b master --depth 1 https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git $SNIFFS_DIR; fi
-  - then $PHPCS_DIR/scripts/phpcs --config-set installed_paths $SNIFFS_DIR; fi
-  - then phpenv rehash; fi
+  - export PHPCS_DIR=/tmp/phpcs
+  - export SNIFFS_DIR=/tmp/sniffs
+  - git clone -b master --depth 1 https://github.com/squizlabs/PHP_CodeSniffer.git $PHPCS_DIR
+  - git clone -b master --depth 1 https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git $SNIFFS_DIR
+  - $PHPCS_DIR/scripts/phpcs --config-set installed_paths $SNIFFS_DIR
+  - phpenv rehash
+
 script:
-  - then $PHPCS_DIR/scripts/phpcs -p . --standard=WordPress; fi
+  - $PHPCS_DIR/scripts/phpcs -p . --standard=WordPress
