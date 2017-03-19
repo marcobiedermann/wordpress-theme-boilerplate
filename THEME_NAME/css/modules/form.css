@@ -1,0 +1,46 @@
+:root {
+  --inputBgColor: #e8e8e8;
+  --inputBorderColor: #ccc;
+}
+
+input,
+select,
+textarea {
+  background-color: var(--inputBgColor);
+  border: 1px solid var(--inputBorderColor);
+  border-radius: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="file"],
+input[type="month"],
+input[type="number"],
+input[type="output"],
+input[type="password"],
+input[type="range"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea {
+  padding: .25rem .5rem;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #3e9487;
+  color: #fff;
+  padding: .25rem 1rem;
+}
