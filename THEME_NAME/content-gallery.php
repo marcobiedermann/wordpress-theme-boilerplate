@@ -9,7 +9,7 @@
 
 	<main>
 
-		<?php the_content( __('Read more', THEME_NAME) ); ?>
+		<?php the_content( __( 'Read more', THEME_NAME ) ); ?>
 
 	</main>
 

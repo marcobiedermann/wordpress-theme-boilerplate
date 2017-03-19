@@ -22,8 +22,8 @@
 
 				<?php the_posts_pagination( array(
 				 'mid_size'  => 2,
-				 'prev_text' => __('Prev', THEME_NAME ),
-				 'next_text' => __('Next', THEME_NAME ),
+				 'prev_text' => __( 'Prev', THEME_NAME ),
+				 'next_text' => __( 'Next', THEME_NAME ),
 				) ); ?>
 
 			</main>
