@@ -29,6 +29,25 @@ add_theme_support( 'post-formats', array(
   'video',
 ) );
 
+// Remove generator tag
+function remove_generator() {
+  return '';
+}
+
+add_filter( 'the_generator', 'remove_generator' );
+
+// remove version param from any enqueued scripts
+function loader_src( $src ) {
+  if ( strpos( $src, 'ver=' ) ) {
+    $src = remove_query_arg( 'ver', $src );
+  }
+
+  return $src;
+}
+
+add_filter( 'style_loader_src', 'loader_src', 9999 );
+add_filter( 'script_loader_src', 'loader_src', 9999 );
+
 // Load translation files
 load_theme_textdomain( THEME_NAME, get_template_directory() . '/languages' );
 
