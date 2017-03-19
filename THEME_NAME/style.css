@@ -124,6 +124,17 @@ body {
   color: #fafafa;
 }
 
+.footer .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .header {
   background-color: #3e9487;
   color: #fafafa;
@@ -135,6 +146,20 @@ body {
   color: #fafafa;
 }
 
+.header .grid {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -142,18 +167,21 @@ body {
 }
 
 .sidebar-left {
+  margin-right: 3%;
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
 }
 
-.sidebar-left {
-
+.sidebar-right {
+  margin-left: 3%;
 }
 
 .sidebar {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+  -ms-flex-preferred-size: 23.5%;
+      flex-basis: 23.5%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 a {

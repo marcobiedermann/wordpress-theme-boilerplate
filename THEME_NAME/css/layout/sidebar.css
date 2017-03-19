@@ -1,3 +1,8 @@
+:root {
+  --sidebarWidth: 25%;
+}
+
 .sidebar {
-  flex-basis: 25%;
+  flex-basis: calc(var(--sidebarWidth) - var(--gridGutter) / 2);
+  flex-shrink: 0;
 }

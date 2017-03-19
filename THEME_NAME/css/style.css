@@ -37,6 +37,8 @@ Text Domain: THEME_NAME
 @import 'modules/table.css';
 @import 'modules/text.css';
 
+@import 'themes/default.css';
+
 @import 'widgets/widgets.css';
 @import 'widgets/archive.css';
 @import 'widgets/calendar.css';
