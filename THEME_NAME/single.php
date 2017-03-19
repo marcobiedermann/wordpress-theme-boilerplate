@@ -20,14 +20,11 @@
           <?php comments_template( '', true ); ?>
         </div>
 
-        <ul class="pagination">
-          <?php if ( get_next_post_link() ) : ?>
-            <li><?php next_post_link( '%link', __( 'Previous post', 'THEME_NAME' ) ); ?></li>
-          <?php endif; ?>
-          <?php if ( get_previous_post_link() ) : ?>
-            <li><?php previous_post_link( '%link', __( 'Next post', 'THEME_NAME' ) ); ?></li>
-          <?php endif; ?>
-        </ul>
+        <?php the_posts_pagination( array(
+         'mid_size'  => 2,
+         'prev_text' => __('Prev', THEME_NAME ),
+         'next_text' => __('Next', THEME_NAME ),
+        ) ); ?>
 
       </main>
 

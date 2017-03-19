@@ -5,20 +5,16 @@
   --paginationLinkPaddingVertical: .25rem;
 }
 
-.pagination {
-  list-style: none;
-  margin: calc(var(--paginationItemMargin) * -1);
-  padding: 0;
-  text-align: center;
+.pagination .nav-links {
+  display: flex;
+  justify-content: center;
 }
 
-.pagination li {
-  display: inline-block;
-  margin: var(--paginationItemMargin);
-}
-
-.pagination a,
-.pagination span {
+.pagination .page-numbers {
   display: inline-block;
   padding: var(--paginationLinkPaddingVertical) var(--paginationLinkPaddingHorizontal);
+}
+
+.pagination .page-numbers.current {
+  font-weight: bold;
 }

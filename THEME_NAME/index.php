@@ -12,14 +12,11 @@
             <h1><?php _e( 'No posts were found!', THEME_NAME ); ?></h1>
           <?php endif; ?>
 
-          <ul class="pagination">
-            <?php if ( get_next_posts_link() ) : ?>
-              <li><?php next_posts_link( __('Older Posts', THEME_NAME) ); ?></li>
-            <?php endif; ?>
-            <?php if ( get_previous_posts_link() ) : ?>
-              <li><?php previous_posts_link( __('Newer Posts', THEME_NAME) ); ?></li>
-            <?php endif; ?>
-          </ul>
+          <?php the_posts_pagination( array(
+           'mid_size'  => 2,
+           'prev_text' => __('Prev', THEME_NAME ),
+           'next_text' => __('Next', THEME_NAME ),
+          ) ); ?>
 
         </main>
 
