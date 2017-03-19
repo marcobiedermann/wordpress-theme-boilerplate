@@ -3,13 +3,14 @@
 }
 
 .menu ul {
+  display: flex;
   list-style: none;
-  margin: 0;
+  margin: -0.5rem;
   padding: 0;
 }
 
 .menu .page_item {
-
+  margin: 0.5rem;
 }
 
 .menu .page_item_has_children {
