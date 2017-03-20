@@ -21,7 +21,7 @@
     "babel-preset-latest": "^6.24.0",
     "babel-register": "^6.24.0",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^6.3.0",
+    "gulp-postcss": "^6.4.0",
     "gulp-sourcemaps": "^2.4.1",
     "postcss-cssnext": "^2.10.0",
     "postcss-import": "^9.1.0"
