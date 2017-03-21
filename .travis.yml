@@ -8,6 +8,8 @@ before_install:
   - git clone -b master --depth 1 https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git $SNIFFS_DIR
   - $PHPCS_DIR/scripts/phpcs --config-set installed_paths $SNIFFS_DIR
   - phpenv rehash
+  - npm install -g jscs
 
 script:
   - $PHPCS_DIR/scripts/phpcs -p . --standard=WordPress
+  - jscs .
