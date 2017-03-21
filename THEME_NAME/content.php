@@ -9,6 +9,7 @@
  * @since 1.0
  * @version 1.0
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope="itemscope" itemprop="blogPost" itemtype="http://schema.org/BlogPosting">

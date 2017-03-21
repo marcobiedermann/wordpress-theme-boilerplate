@@ -12,6 +12,7 @@
  * @since 1.0
  * @version 1.0
  */
+
 ?>
 
 <h3><?php comments_number( '0 Comments', 'One Comment', '% Comments' ); ?></h3>

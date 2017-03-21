@@ -11,6 +11,7 @@
  * @since 1.0
  * @version 1.0
  */
+
 ?>
 
 	<footer class="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
