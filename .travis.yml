@@ -9,7 +9,10 @@ before_install:
   - $PHPCS_DIR/scripts/phpcs --config-set installed_paths $SNIFFS_DIR
   - phpenv rehash
   - npm install -g jscs
+  - npm install -g jshint
+  - wget https://develop.svn.wordpress.org/trunk/.jshintrc
 
 script:
   - $PHPCS_DIR/scripts/phpcs -p . --standard=WordPress
   - jscs .
+  - jshint .
