@@ -1,4 +1,13 @@
 <?php
+/**
+ * THEME_NAME functions and definitions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package WordPress
+ * @subpackage THEME_NAME
+ * @since 1.0
+ */
 
 // Constants
 define( 'THEME_NAME', 'THEME_NAME' );

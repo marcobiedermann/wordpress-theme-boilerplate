@@ -1,9 +1,15 @@
 <?php
 
-/*
-Template Name: Main content with left sidebar
-*/
-
+/**
+ * Template Name: Main content with left sidebar
+ *
+ * Displays content and left sidebar
+ *
+ * @package WordPress
+ * @subpackage THEME_NAME
+ * @since 1.0
+ * @version 1.0
+ */
 ?>
 
 	<?php get_header(); ?>

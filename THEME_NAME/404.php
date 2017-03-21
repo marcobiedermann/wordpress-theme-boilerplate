@@ -1,3 +1,16 @@
+<?php
+/**
+ * The template for displaying 404 pages (not found)
+ *
+ * @link https://codex.wordpress.org/Creating_an_Error_404_Page
+ *
+ * @package WordPress
+ * @subpackage THEME_NAME
+ * @since 1.0
+ * @version 1.0
+ */
+?>
+
 <?php get_header(); ?>
 
 <div class="container">
