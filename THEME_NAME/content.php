@@ -2,7 +2,7 @@
 
 	<header>
 
-		<?php if ( is_single() ): ?>
+		<?php if ( is_single() ) : ?>
 			<h1 itemprop="name headline"><?php the_title(); ?></h1>
 		<?php else : ?>
 			<h2 itemprop="name headline"><a href="<?php the_permalink(); ?>" itemprop="url"><?php the_title(); ?></a></h2>
@@ -37,7 +37,7 @@
 			<li itemprop="about"><?php the_category( '</li><li>' ); ?></li>
 		</ul>
 
-		<?php if ( has_tag() ): ?>
+		<?php if ( has_tag() ) : ?>
 			<ul class="post-tags"><?php the_tags( '<li itemprop="keywords">', '</li><li>', '</li>' ); ?></ul>
 		<?php endif; ?>
 
