@@ -13,6 +13,6 @@ before_install:
   - wget https://develop.svn.wordpress.org/trunk/.jshintrc
 
 script:
-  - $PHPCS_DIR/scripts/phpcs -p . --standard=WordPress
-  - jscs .
-  - jshint .
+  - $PHPCS_DIR/scripts/phpcs -p THEME_NAME --standard=WordPress
+  - jscs THEME_NAME
+  - jshint THEME_NAME
