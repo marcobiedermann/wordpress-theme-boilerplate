@@ -4,6 +4,8 @@
 
 # WordPress Theme Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/wordpress-theme-boilerplate.svg)](https://greenkeeper.io/)
+
 ## Features
 * function
 * index
