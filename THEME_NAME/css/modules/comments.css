@@ -5,37 +5,30 @@
 }
 
 .comment {
-
 }
 
 .comment.even {
-
 }
 
 .comment.odd {
-
 }
 
 .comment-respond {
-
 }
 
 .comment-form {
-
 }
 
 .comment-formtextarea {
-	padding: .25rem .5rem;
+	padding: 0.25rem 0.5rem;
 }
 
 .comment-form .submit {
-	padding: .25rem 1rem;
+	padding: 0.25rem 1rem;
 }
 
 .comment-author {
-
 }
 
 .comment-meta {
-
 }

@@ -2,19 +2,13 @@
 	--blockquoteBorderLeftColor: #222;
 	--blockquoteBorderLeftWidth: 3px;
 	--blockquoteMarginBottom: 1.5rem;
-	--blockquoteMarginLeft: 0;
-	--blockquoteMarginRight: 0;
-	--blockquoteMarginTop: 0;
+	--blockquoteMargin: 0;
 	--blockquotePaddingLeft: 1rem;
 }
 
 blockquote {
 	border-left: var(--blockquoteBorderLeftWidth) solid var(--blockquoteBorderLeftColor);
-	margin-bottom: var(--blockquoteMarginBottom);
-	margin-left: var(--blockquoteMarginLeft);
-	margin-right: var(--blockquoteMarginRight);
-	margin-top: var(--blockquoteMarginTop);
-	padding-left: var(--blockquotePaddingLeft);
+	margin: var(--blockquoteMargin);
 }
 
 blockquote p {

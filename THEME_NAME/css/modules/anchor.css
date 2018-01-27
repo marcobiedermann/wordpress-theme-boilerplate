@@ -1,7 +1,6 @@
 :root {
 	--anchorColor: #3e9487;
 	--anchorTextDecoration: none;
-
 	--anchorHoverColor: #2f7066;
 }
 
@@ -11,7 +10,7 @@ a {
 	color: var(--anchorColor);
 	outline: 0;
 	text-decoration: var(--anchorTextDecoration);
-	transition: background-color .3s, color .3s;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 a:focus,

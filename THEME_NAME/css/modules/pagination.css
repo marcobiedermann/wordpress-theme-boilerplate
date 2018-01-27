@@ -1,8 +1,7 @@
 :root {
-	--paginationItemMargin: .5rem;
-
-	--paginationLinkPaddingHorizontal: .5rem;
-	--paginationLinkPaddingVertical: .25rem;
+	--paginationItemMargin: 0.5rem;
+	--paginationLinkPaddingHorizontal: 0.5rem;
+	--paginationLinkPaddingVertical: 0.25rem;
 }
 
 .pagination .nav-links {
@@ -16,5 +15,5 @@
 }
 
 .pagination .page-numbers.current {
-	font-weight: bold;
+	font-weight: 700;
 }

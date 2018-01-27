@@ -1,16 +1,15 @@
 :root {
 	--htmlFontSize: 100%;
-
 	--bodyFontFamilyFallback: sans-serif;
-	--bodyFontFamily: Roboto;
+	--bodyFontFamily: roboto;
 	--bodyFontSize: 1rem;
 	--bodyFontWeight: 400;
 	--bodyLineHeight: 1.5;
 }
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
 	box-sizing: inherit;
 }
 

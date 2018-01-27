@@ -1,8 +1,7 @@
 :root {
-	--codeFontFamily: 'Courier New';
+	--codeFontFamily: "Courier New";
 	--codeFontFamilyFallback: monospace;
-	--codeFontSize: .75em;
-
+	--codeFontSize: 0.75em;
 	--preBgColor: #f5f5f5;
 	--preMarginBottom: 1.5rem;
 	--preMarginTop: 0;

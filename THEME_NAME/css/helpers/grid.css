@@ -24,17 +24,17 @@
 }
 
 .grid-col-3 {
-	flex-basis: calc(100% / var(--gridColumns) * 3  - var(--gridGutter));
+	flex-basis: calc(100% / var(--gridColumns) * 3 - var(--gridGutter));
 }
 
 .grid-col-4 {
-	flex-basis: calc(100% / var(--gridColumns) * 4  - var(--gridGutter));
+	flex-basis: calc(100% / var(--gridColumns) * 4 - var(--gridGutter));
 }
 
 .grid-col-8 {
-	flex-basis: calc(100% / var(--gridColumns) * 8  - var(--gridGutter));
+	flex-basis: calc(100% / var(--gridColumns) * 8 - var(--gridGutter));
 }
 
 .grid-col-9 {
-	flex-basis: calc(100% / var(--gridColumns) * 9  - var(--gridGutter));
+	flex-basis: calc(100% / var(--gridColumns) * 9 - var(--gridGutter));
 }
