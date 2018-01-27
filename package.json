@@ -7,10 +7,11 @@
   "main": "index.php",
   "scripts": {
     "build": "gulp build",
-		"develop": "gulp",
-		"lint": "npm run lint:js",
-		"lint:js": "eslint ./THEME_NAME/**/*.js",
-		"test": "npm run lint"
+    "develop": "gulp",
+		"lint": "npm run lint:css & npm run lint:js",
+		"lint:css": "stylelint ./THEME_NAME/css/**/*.css",
+    "lint:js": "eslint ./THEME_NAME/js/**/*.js",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,8 @@
     "gulp-postcss": "^7.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.0.0"
+    "postcss-import": "^11.0.0",
+    "stylelint": "^8.4.0",
+    "stylelint-config-wordpress": "^12.0.0"
   }
 }
