@@ -1,8 +1,8 @@
-import gulp           from 'gulp';
-import gulpPostcss    from 'gulp-postcss';
-import gulpSourcemaps from 'gulp-sourcemaps';
-import postcssCssnext from 'postcss-cssnext';
-import postcssImport  from 'postcss-import';
+const gulp           = require('gulp');
+const gulpPostcss    = require('gulp-postcss');
+const gulpSourcemaps = require('gulp-sourcemaps');
+const postcssCssnext = require('postcss-cssnext');
+const postcssImport  = require('postcss-import');
 
 const dirs = {
   src: 'THEME_NAME',
