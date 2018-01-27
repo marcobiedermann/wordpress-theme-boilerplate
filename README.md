@@ -1,9 +1,10 @@
+# WordPress Theme Template
+
 [![Build Status](https://travis-ci.org/marcobiedermann/wordpress-theme-boilerplate.svg?branch=master)](https://travis-ci.org/marcobiedermann/wordpress-theme-boilerplate)
 [![devDependency Status](https://david-dm.org/marcobiedermann/wordpress-theme-boilerplate/dev-status.svg)](https://david-dm.org/marcobiedermann/wordpress-theme-boilerplate?type=dev)
 
-# WordPress Theme Template
-
 ## Features
+
 * function
 * index
 * header
@@ -19,12 +20,15 @@
 * contact
 * widgets
 
-# Requirements
+## Requirements
+
 * [Node.js](https://nodejs.org/)
 
-# Installation
+## Installation
+
 * Run `npm install`
 
 ## Usage
+
 * Development: `npm run develop`
 * Build: `npm run build`
