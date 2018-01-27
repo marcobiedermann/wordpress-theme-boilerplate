@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+
+  wordpress:
+    image: wordpress:latest
+    restart: always
+    ports:
+      - 8080:80
+      - 443:443
+    volumes:
+      - ./THEME_NAME:/var/www/html/wp-content/themes/THEME_NAME
+    links:
+      - mysql
+    environment:
+      WORDPRESS_DB_PASSWORD: root
+
+  mysql:
+    image: mysql:8.0
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
