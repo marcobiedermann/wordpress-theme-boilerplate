@@ -27,5 +27,5 @@
 * Run `npm install`
 
 ## Usage
-* Development: `npm run dev`
-* Production: `npm run build`
+* Development: `npm run develop`
+* Build: `npm run build`
