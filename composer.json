@@ -1,0 +1,12 @@
+{
+    "name": "marcobiedermann/wordpress-theme-boilerplate",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Marco Biedermann"
+        }
+    ],
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^0.14.0"
+    }
+}
