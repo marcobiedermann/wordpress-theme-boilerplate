@@ -1,40 +1,40 @@
 {
-  "name": "wordpress-theme-boilerplate",
-  "version": "1.0.0",
-  "author": "Marco Biedermann",
-  "homepage": "https://www.marcobiedermann.com/",
-  "description": "WordPress Theme Boilerplate",
-  "main": "index.php",
-  "scripts": {
-    "build": "gulp build",
+	"name": "wordpress-theme-boilerplate",
+	"version": "1.0.0",
+	"author": "Marco Biedermann",
+	"homepage": "https://www.marcobiedermann.com/",
+	"description": "WordPress Theme Boilerplate",
+	"main": "index.php",
+	"scripts": {
+		"build": "gulp build",
 		"develop": "gulp",
 		"fix": "npm run fix:css && npm run fix:js",
 		"fix:css": "stylefmt --recursive './THEME_NAME/css/**/*.css'",
 		"fix:js": "npm run lint:js -- --fix",
-    "lint": "npm run lint:css && npm run lint:js",
-    "lint:css": "stylelint './THEME_NAME/css/**/*.css'",
-    "lint:js": "eslint './THEME_NAME/js/**/*.js'",
-    "test": "npm run lint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/marcobiedermann/wordpress-theme-boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/marcobiedermann/wordpress-theme-boilerplate/issues"
-  },
-  "license": "ISC",
-  "devDependencies": {
-    "babel-preset-env": "^1.6.1",
-    "eslint": "^4.16.0",
-    "eslint-config-wordpress": "^2.0.0",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.0.0",
-    "stylefmt": "^6.0.0",
-    "stylelint": "^8.4.0",
-    "stylelint-config-wordpress": "^12.0.0"
-  }
+		"lint": "npm run lint:css && npm run lint:js",
+		"lint:css": "stylelint './THEME_NAME/css/**/*.css'",
+		"lint:js": "eslint './THEME_NAME/js/**/*.js'",
+		"test": "npm run lint"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/marcobiedermann/wordpress-theme-boilerplate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/marcobiedermann/wordpress-theme-boilerplate/issues"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"babel-preset-env": "^1.6.1",
+		"eslint": "^4.16.0",
+		"eslint-config-wordpress": "^2.0.0",
+		"gulp": "^3.9.1",
+		"gulp-postcss": "^7.0.1",
+		"gulp-sourcemaps": "^2.6.4",
+		"postcss-cssnext": "^3.1.0",
+		"postcss-import": "^11.0.0",
+		"stylefmt": "^6.0.0",
+		"stylelint": "^8.4.0",
+		"stylelint-config-wordpress": "^12.0.0"
+	}
 }
