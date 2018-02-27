@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Template Name: Main content with left and right sidebar
  *
