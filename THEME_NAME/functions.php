@@ -18,25 +18,29 @@ define( 'SCRIPTS', THEMEROOT . '/js' );
 // Add Theme Support
 add_theme_support( 'title-tag' );
 add_theme_support( 'automatic-feed-links' );
-add_theme_support( 'html5', array(
-	'caption',
-	'comment-form',
-	'comment-list',
-	'gallery',
-	'search-form',
-) );
+add_theme_support(
+	'html5', array(
+		'caption',
+		'comment-form',
+		'comment-list',
+		'gallery',
+		'search-form',
+	)
+);
 add_theme_support( 'post-thumbnails' );
-add_theme_support( 'post-formats', array(
-	'aside',
-	'audio',
-	'chat',
-	'gallery',
-	'image',
-	'link',
-	'quote',
-	'status',
-	'video',
-) );
+add_theme_support(
+	'post-formats', array(
+		'aside',
+		'audio',
+		'chat',
+		'gallery',
+		'image',
+		'link',
+		'quote',
+		'status',
+		'video',
+	)
+);
 
 // WooCommerce
 add_theme_support( 'woocommerce' );
@@ -64,9 +68,11 @@ add_filter( 'script_loader_src', 'loader_src', 9999 );
 load_theme_textdomain( THEME_NAME, get_template_directory() . '/languages' );
 
 // Register Menus
-register_nav_menus( array(
-	'primary' => __( 'Primary Menu', THEME_NAME )
-) );
+register_nav_menus(
+	array(
+		'primary' => __( 'Primary Menu', THEME_NAME ),
+	)
+);
 
 // Register sidebar
 register_sidebar(
@@ -89,4 +95,4 @@ register_sidebar(
 wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.0.0', 'all' );
 
 // Load Scripts
-wp_enqueue_script( 'main_script', THEMEROOT . '/js/main.js', array('jquery'), '1.0.0', true );
+wp_enqueue_script( 'main_script', THEMEROOT . '/js/main.js', array( 'jquery' ), '1.0.0', true );

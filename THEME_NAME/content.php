@@ -42,10 +42,12 @@
 
 	<footer>
 
-		<?php if ( comments_open() && !post_password_required() ) {
+		<?php
+		if ( comments_open() && ! post_password_required() ) {
 			comments_popup_link( '0 Comments', '1 Comment', '% Comments', 'article-meta-comments' );
 			comments_template();
-		} ?>
+		}
+		?>
 
 		<ul class="post-categories">
 			<li itemprop="about"><?php the_category( '</li><li>' ); ?></li>

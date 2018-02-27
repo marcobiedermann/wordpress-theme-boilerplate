@@ -22,7 +22,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link rel="shortcut icon" href="<? echo IMAGES ?>/favicon.ico">
+	<link rel="shortcut icon" href="<?php echo IMAGES; ?>/favicon.ico">
 
 	<?php wp_head(); ?>
 </head>
@@ -33,16 +33,18 @@
 		<div class="grid">
 
 			<div class="logo">
-				<a href="<? echo home_url(); ?>">
-					<img src="<? echo IMAGES ?>/logo.png" alt="<?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?>">
+				<a href="<?php echo home_url(); ?>">
+					<img src="<?php echo IMAGES; ?>/logo.png" alt="<?php bloginfo( 'name' ); ?> | <?php bloginfo( 'description' ); ?>">
 				</a>
 			</div>
 
 			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'primary',
-					'menu'           => 'primary-menu',
-				) );
+				wp_nav_menu(
+					array(
+						'theme_location' => 'primary',
+						'menu'           => 'primary-menu',
+					)
+				);
 			?>
 
 		</div>

@@ -20,7 +20,11 @@
 
 				<main class="main" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
 
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<?php
+					if ( have_posts() ) :
+						while ( have_posts() ) :
+							the_post();
+?>
 						<?php get_template_part( 'content', get_post_format() ); ?>
 					<?php endwhile; else : ?>
 						<h1><?php _e( 'No posts were found!', THEME_NAME ); ?></h1>

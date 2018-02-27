@@ -20,7 +20,7 @@
 
 		<h1>Oops. Page not found!</h1>
 		<p>It seems that you are looking for something that is not here.</p>
-		<p>Return to <a href="<? echo home_url(); ?>">homepage</a>.</p>
+		<p>Return to <a href="<?php echo home_url(); ?>">homepage</a>.</p>
 
 	</main>
 
