@@ -26,11 +26,6 @@ gulp.task('watch', () => {
 	gulp.watch(`${dirs.src}/css/**/*.css`, ['css']);
 });
 
-gulp.task('default', [
-	'css',
-	'watch',
-]);
+gulp.task('default', gulp.parallel('css', 'watch'));
 
-gulp.task('build', [
-	'css',
-]);
+gulp.task('build', gulp.parallel('css'));
