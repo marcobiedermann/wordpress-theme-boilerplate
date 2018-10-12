@@ -1,5 +1,6 @@
 # WordPress Theme Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/wordpress-theme-boilerplate.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/marcobiedermann/wordpress-theme-boilerplate.svg?branch=master)](https://travis-ci.org/marcobiedermann/wordpress-theme-boilerplate)
 [![devDependency Status](https://david-dm.org/marcobiedermann/wordpress-theme-boilerplate/dev-status.svg)](https://david-dm.org/marcobiedermann/wordpress-theme-boilerplate?type=dev)
 
