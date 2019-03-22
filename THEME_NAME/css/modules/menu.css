@@ -13,11 +13,11 @@
 	position: relative;
 }
 
-.menu .page_item_has_children:hover > .children {
-	display: block;
-}
-
 .menu .children {
 	display: none;
 	position: absolute;
+}
+
+.menu .page_item_has_children:hover > .children {
+	display: block;
 }
