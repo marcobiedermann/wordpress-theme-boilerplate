@@ -1,35 +1,5 @@
 # WordPress Theme Template
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/wordpress-theme-boilerplate.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/marcobiedermann/wordpress-theme-boilerplate.svg?branch=master)](https://travis-ci.org/marcobiedermann/wordpress-theme-boilerplate)
-[![devDependency Status](https://david-dm.org/marcobiedermann/wordpress-theme-boilerplate/dev-status.svg)](https://david-dm.org/marcobiedermann/wordpress-theme-boilerplate?type=dev)
+[![Build Status](https://img.shields.io/travis/com/marcobiedermann/wordpress-theme-boilerplate)](https://travis-ci.com/marcobiedermann/wordpress-theme-boilerplate)
 
-## Features
-
-* function
-* index
-* header
-* footer
-* page
-* singe
-* content
-* author archives
-* date archives
-* category and tag archives
-* 404
-* full width
-* contact
-* widgets
-
-## Requirements
-
-* [Node.js](https://nodejs.org/)
-
-## Installation
-
-* Run `npm install`
-
-## Usage
-
-* Development: `npm run develop`
-* Build: `npm run build`
+Template to bootstrap your next WordPress theme.

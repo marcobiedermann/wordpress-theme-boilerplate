@@ -1,4 +1,4 @@
-( function( window, document, undefined ) {
+( function ( window, document, undefined ) {
 	'use strict';
 
-}( window, document ) );
+} )( window, document );

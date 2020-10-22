@@ -1,6 +1,0 @@
-{
-	"extends": "stylelint-config-wordpress",
-	"rules": {
-		"block-no-empty": null
-	}
-}
